@@ -1,0 +1,28 @@
+[project]
+name = "5qbit"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "WiktoriaMarczuk,SzymonGogulski"}
+]
+readme = "readme.md"
+package-mode = false
+requires-python = ">=3.12,<4"
+dependencies = [
+    "numpy (>=2.3.4,<3.0.0)",
+    "ipykernel (>=7.1.0,<8.0.0)",
+    "matplotlib (>=3.10.7,<4.0.0)",
+    "pylatexenc (>=2.10,<3.0)",
+    "ipywidgets (>=8.1.8,<9.0.0)",
+    "qiskit (==2.2.0)",
+    "qiskit-aer (>=0.17.2,<0.18.0)",
+    "qiskit-ibm-runtime (>=0.45.0,<0.46.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "sympy (>=1.14.0,<2.0.0)",
+    "dotenv (>=0.9.9,<0.10.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
