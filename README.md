@@ -1,4 +1,4 @@
-# Quantum Project Template
+# HHL algorithm implementation
 
 Project created for the Quantum Computing and Machine Learning Seminar.
 
